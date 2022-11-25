@@ -1,0 +1,25 @@
+<p>perfiles works!</p>
+<table class="table-primary">
+    <thead>
+        <tr>
+            <td>
+                ID
+            </td>
+            <td>
+                NOMBRE
+            </td>
+            <td>
+                EMAIL
+            </td>
+        </tr>
+        
+    </thead>
+    <tbody>
+        <tr *ngFor="let Perfil of perfiles">
+         <td>{{Perfil.id}}</td>
+         <td>{{Perfil.usuario}}</td>
+         <td>{{Perfil.email}}</td>
+        </tr>
+
+    </tbody>
+</table>
